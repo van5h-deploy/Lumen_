@@ -1,0 +1,64 @@
+{
+  "name": "LUMEN - Accessibility for Visually Impaired",
+  "short_name": "LUMEN",
+  "description": "Voice-enabled accessibility app for independent living",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0d10",
+  "theme_color": "#2E5090",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232E5090' width='192' height='192'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='80' fill='white' font-weight='bold'>L</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%232E5090' width='512' height='512'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='250' fill='white' font-weight='bold'>L</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["accessibility", "utilities"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230b0d10' width='540' height='720'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='120' fill='%23ffd400' font-weight='bold'>LUMEN</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Read Aloud",
+      "short_name": "Read",
+      "description": "Convert text to speech",
+      "url": "./index.html?feature=read-aloud",
+      "icons": []
+    },
+    {
+      "name": "Voice Notes",
+      "short_name": "Voice",
+      "description": "Speech to text notes",
+      "url": "./index.html?feature=voice-notes",
+      "icons": []
+    },
+    {
+      "name": "Navigation",
+      "short_name": "Nav",
+      "description": "Voice-guided navigation",
+      "url": "./index.html?feature=navigation",
+      "icons": []
+    },
+    {
+      "name": "Emergency SOS",
+      "short_name": "SOS",
+      "description": "Emergency alert",
+      "url": "./index.html?feature=sos",
+      "icons": []
+    }
+  ]
+}
